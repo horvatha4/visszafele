@@ -30,6 +30,17 @@ class Visszafele {
     }
     while (nem_helyes_a_szo);
     
+    int lenght = userInput.length(); // user input hossza
+    char[] szo = new char[length]; // hosszat egy arrayba akarom tarolni
+
+    for (int i=0; i<lenght; i++) // a loop ami az array karaktereit tarolja
+    {
+        szo[i] = userInput.charAt(i);
+            System.out.println(arr[i] + " ");
+
+    }
+    // elakadtam, mert nem tudom, hogyan irjam ki forditottan a szot, hogy ha nem tudom, hany karakterböl allo szot ad meg a user
+    
     System.out.println(userInput);  
     
 
